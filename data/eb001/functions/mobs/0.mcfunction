@@ -1,0 +1,2 @@
+data merge entity @e[tag=,limit=1,sort=nearest,type=ghast] {CustomNameVisible:1b,DeathLootTable:"eb001:mobs/1",ExplosionPower:5,Tags:["found"],CustomName:'{"text":"Ghast Demoniaco","color":"dark_red","bold":true}',Attributes:[{Name:generic.followRange,Base:500},{Name:generic.armor,Base:500}]}
+summon minecraft:ghast ~ ~ ~ {CustomNameVisible:1b,DeathLootTable:"eb001:mobs/1",ExplosionPower:5,Tags:["found"],CustomName:'{"text":"Ghast Demoniaco","color":"dark_red","bold":true}',Attributes:[{Name:generic.followRange,Base:500},{Name:generic.armor,Base:500}]}

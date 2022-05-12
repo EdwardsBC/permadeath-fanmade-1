@@ -1,0 +1,39 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.05
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag":"{display:{Name:'{\"text\":\"Peto de Netherite\",\"color\":\"dark_red\",\"bold\":true}',color:4521984},HideFlags:7,Unbreakable:1b,Enchantments:[{id:\"minecraft:protection\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:0.1,Operation:1,UUIDLeast:259840,UUIDMost:516844,Slot:\"chest\"}]}",
+                            "conditions": [
+                                {
+                                    "condition": "killed_by_player"
+                                },
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

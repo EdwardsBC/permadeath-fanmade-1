@@ -1,0 +1,39 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.2
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_boots",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag":"{display:{Name:'{\"text\":\"Botas de Netherite\",\"color\":\"dark_red\",\"bold\":true}',color:4521984},HideFlags:7,Unbreakable:1b,Enchantments:[{id:\"minecraft:protection\",lvl:5s}],AttributeModifiers:[{AttributeName:\"generic.maxHealth\",Name:\"generic.maxHealth\",Amount:0.1,Operation:1,UUIDLeast:974637,UUIDMost:587723,Slot:\"feet\"}]}",
+                            "conditions": [
+                                {
+                                    "condition": "killed_by_player"
+                                },
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

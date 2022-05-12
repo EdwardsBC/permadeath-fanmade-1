@@ -1,0 +1,1 @@
+data merge entity @e[tag=,limit=1,sort=nearest,type=ender_dragon] {Glowing:1,Health:2000,Attributes:[{Name:"generic.maxHealth",Base:2000},{Name:"generic.followRange",Base:500},{Name:"generic.movementSpeed",Base:0.7f},{Name:"generic.attackDamage",Base:6}],ActiveEffects:[{Id:5,Amplifier:1,Duration:2147483647},{Id:10,Amplifier:1,Duration:2147483647}],Tags:["found"]}

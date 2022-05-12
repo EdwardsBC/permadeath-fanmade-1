@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# #",
+        "PEP",
+        "W W"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:end_stone_bricks"
+        },
+        "P": {
+            "item": "minecraft:phantom_membrane"
+        },
+        "E": {
+            "item": "minecraft:end_crystal"
+        },
+        "W": {
+            "item": "minecraft:end_stone_brick_wall"
+        }
+    },
+    "result": {
+        "item": "minecraft:elytra",
+        "count": 1
+    }
+}

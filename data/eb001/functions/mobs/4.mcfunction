@@ -1,0 +1,1 @@
+data merge entity @e[tag=,limit=1,sort=nearest,type=cave_spider] {CustomNameVisible:1b,DeathLootTable:"eb001:mobs/4",Tags:["found"],CustomName:'{"text":"Araña Demoniaca","color":"dark_red","bold":true}',Attributes:[{Name:generic.movementSpeed,Base:0.6},{Name:generic.attackDamage,Base:20}]}
